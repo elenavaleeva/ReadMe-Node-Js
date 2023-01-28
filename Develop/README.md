@@ -1,14 +1,14 @@
-# README generator 
+# readme generator
 ## description
-to generate readme file throgh note.js
+to generate readme file
 ## Installation
-node.js
+has been installed
 ## usage
-readme file
+useful to generate readme file
 ## License 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 ## contributing
-writing
+writer
 ## GitHub
 elena valeeva
 ## email
