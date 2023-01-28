@@ -4,30 +4,8 @@ const fs = require('fs');
 const path = require('path');
 const generateMarkdown = require('./utils/generateMarkdown')
 
-// GIVEN a command-line application that accepts user input
-// WHEN I am prompted for information about my application repository
-// THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
-// WHEN I enter my project title
 
-// fs.readFile( path.join(__dirname,'Develop', 'units', 'generateMarkdown.js'), 'utf8',(err, data)  => {
-//     if (err) throw err;
-//     console.log(data);
-// })
 
-// // process.on('uncaughtException', err => {
-// //     console.error(`There was an uncaught error: ${err}`);
-// //     process.exit(1);
-// // })
-
-// fs.writeFile( path.join(__dirname,'Develop', 'units', 'README.md'),' Nice to meet you', (err)  => {
-//     if (err) throw err;
-//     console.log(`write complete`);
-// })
-
-// fs.appendFile( path.join(__dirname,'Develop', 'units', 'README.md'),' Text check', (err)  => {
-//     if (err) throw err;
-//     console.log(`append complete`);
-// })
 console.log(`Hello...`);
 
 // TODO: Create an array of questions for user input
@@ -84,14 +62,6 @@ const questions = [
   }
 )
  
-
-
-
-//  // TODO: Create a function to write README file
-//  fs.writeFile('log.txt', process.data, (err) =>
-//  err ? console.error(err) : console.log('Success!')
-// );
-
 
 // TODO: Create a function to initialize app
 function init() {}
