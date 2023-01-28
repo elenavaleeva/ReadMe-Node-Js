@@ -36,21 +36,21 @@ const questions = [
       name: 'license',
       choices: ['MIT', 'APACHE', 'IBM']
     },
-    {
-        type: 'input',
-        message: 'What is your contributing?',
-        name: 'contributing',
-      },
-      {
-        type: 'input',
-        message: 'What is your GitHub?',
-        name: 'GitHub',
-      },
-      {
-        type: 'input',
-        message: 'What is your email?',
-        name: 'email',
-      },
+    // {
+    //     type: 'input',
+    //     message: 'What is your contributing?',
+    //     name: 'contributing',
+    //   },
+    //   {
+    //     type: 'input',
+    //     message: 'What is your GitHub?',
+    //     name: 'GitHub',
+    //   },
+    //   {
+    //     type: 'input',
+    //     message: 'What is your email?',
+    //     name: 'email',
+    //   },
 
  ]
  inquirer.prompt(questions) 
