@@ -9,7 +9,8 @@ const generateMarkdown = require('./utils/generateMarkdown')
 console.log(`Hello...`);
 
 // TODO: Create an array of questions for user input
-const questions = [ 
+const questions = [
+
     {
       type: 'input',
       message: 'What is your user project title ?',
@@ -36,23 +37,24 @@ const questions = [
       name: 'license',
       choices: ['MIT', 'APACHE', 'IBM']
     },
-    // {
-    //     type: 'input',
-    //     message: 'What is your contributing?',
-    //     name: 'contributing',
-    //   },
-    //   {
-    //     type: 'input',
-    //     message: 'What is your GitHub?',
-    //     name: 'GitHub',
-    //   },
-    //   {
-    //     type: 'input',
-    //     message: 'What is your email?',
-    //     name: 'email',
-    //   },
+    {
+        type: 'input',
+        message: 'What is your contributing?',
+        name: 'contributing',
+      },
+      {
+        type: 'input',
+        message: 'What is your GitHub?',
+        name: 'GitHub',
+      },
+      {
+        type: 'input',
+        message: 'What is your email?',
+        name: 'email',
+      },
 
  ]
+  
  inquirer.prompt(questions) 
   .then((response) => {
     response.confirm === response.password
@@ -60,7 +62,7 @@ const questions = [
       : console.log('Success!')
       fs.writeFileSync('README.md', generateMarkdown(response))
   }
-)
+  )
  
 
 // TODO: Create a function to initialize app
